@@ -1,0 +1,7 @@
+node_modules/
+*.swp
+*.swo
+!logs/README.md
+logs/*
+systemDB/
+telnetFacts/

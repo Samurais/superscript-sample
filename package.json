@@ -1,0 +1,33 @@
+{
+  "name": "superscript-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hai liang wang",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "mongodb": "^2.2.11",
+    "mongoose": "^4.6.7",
+    "rimraf": "^2.5.4",
+    "sfacts": "^0.2.1",
+    "superscript": "^0.12.2"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0"
+  },
+  "description": "a sample app",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Samurais/superscript-sample.git"
+  },
+  "keywords": [
+    "superscript"
+  ],
+  "bugs": {
+    "url": "https://github.com/Samurais/superscript-sample/issues"
+  },
+  "homepage": "https://github.com/Samurais/superscript-sample#readme"
+}

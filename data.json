@@ -1,0 +1,61 @@
+{
+    "topics": {
+        "random": {
+            "flags": [],
+            "keywords": []
+        },
+        "greetings": {
+            "flags": [
+                "keep"
+            ],
+            "keywords": [],
+            "filter": null
+        }
+    },
+    "gambits": {
+        "63zoMRPQ": {
+            "topic": "greetings",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "isConditional": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "xHaJSK14"
+            ],
+            "redirect": null,
+            "trigger": "__preview",
+            "raw": "__preview"
+        },
+        "adgc9cZ0": {
+            "topic": "greetings",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "isConditional": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "rqhEvx30",
+                "5XBAFoKE",
+                "STcXFH43"
+            ],
+            "redirect": null,
+            "trigger": "__res1__",
+            "raw": "__res1__"
+        }
+    },
+    "convos": {},
+    "replys": {
+        "xHaJSK14": "{@__res1__} foo ^addMessageProp(voice_file_upper,v0)",
+        "rqhEvx30": "hello1 ^addMessageProp(voice_file,v1)",
+        "5XBAFoKE": "hello2 ^addMessageProp(voice_file,v2)",
+        "STcXFH43": "hello3 ^addMessageProp(voice_file,v3)"
+    },
+    "checksums": {
+        "./topics/preview_words.ss": "2cbaead1ca8625318eabf1f46f17124cb8b34b80"
+    }
+}
