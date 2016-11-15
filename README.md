@@ -43,3 +43,62 @@ ageProp(voice_file_upper,v0)","output":"hello1 foo"}],"final_output":"hello1 foo
         node_modules/async/lib/async.js:52:16
         node_modules/async/lib/async.js:269:32
 ```
+
+## Description
+
+The **reply** object is like this:
+
+```
+{
+  "replyId": "582a9c44f285d4061c10ccbf",
+  "createdAt": "2016-11-15T05:25:26.492Z",
+  "string": "hello1 foo",
+  "topicName": "greetings",
+  "subReplies": [],
+  "debug": {
+    "user_id": "testuser",
+    "raw_input": "__preview",
+    "normalized_input": "__preview",
+    "matched_gambit": [
+      {
+        "topic": "greetings",
+        "input": "__preview",
+        "reply": "{@__res1__} foo ^addMessageProp(voice_file_upper,v0)",
+        "output": "hello1 foo"
+      }
+    ],
+    "final_output": "hello1 foo",
+    "timestamp": "2016-11-15T05:25:25.851Z"
+  },
+  "voice_file_upper": "v0"
+}
+```
+
+But it is expected as this:
+
+```
+{
+  "replyId": "582a9c44f285d4061c10ccbf",
+  "createdAt": "2016-11-15T05:25:26.492Z",
+  "string": "hello1 foo",
+  "topicName": "greetings",
+  "subReplies": [],
+  "debug": {
+    "user_id": "testuser",
+    "raw_input": "__preview",
+    "normalized_input": "__preview",
+    "matched_gambit": [
+      {
+        "topic": "greetings",
+        "input": "__preview",
+        "reply": "{@__res1__} foo ^addMessageProp(voice_file_upper,v0)",
+        "output": "hello1 foo"
+      }
+    ],
+    "final_output": "hello1 foo",
+    "timestamp": "2016-11-15T05:25:25.851Z"
+  },
+  "voice_file_upper": "v0",
+  "voice_file": "v1|v2|v3"
+}
+```
